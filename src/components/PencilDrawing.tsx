@@ -80,8 +80,11 @@ function buildPath(h: number): string {
     [R - 18,  h * 0.80 ],
     [R,       h * 0.85 ],
     [R - 55,  h * 0.90 ],
-    [MX,      h * 0.95 ],
-    [MX,      h        ],
+    [MX,      h * 0.94 ],
+    // Sweep right and down to point at "Powered by Business With AI Strategist"
+    // which sits in the footer's right column (~x=1100, near bottom of page)
+    [1050,    h * 0.975],
+    [1130,    h - 30   ],  // final point: pencil tip lands on the branding text
   ];
 
   const T = 0.38; // curve tension

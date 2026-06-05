@@ -36,8 +36,9 @@ export default function Footer() {
           </div>
 
           {/* Powered by */}
-          <div className="flex items-center gap-1.5 text-xs text-slate-600">
-            <span>Powered by advanced AI analysis</span>
+          <div id="powered-by" className="flex items-center gap-1.5 text-xs text-slate-400">
+            <span>Powered by</span>
+            <span className="font-semibold gradient-text">Business With AI Strategist</span>
             <Heart size={11} className="text-danger/60" />
           </div>
         </div>
