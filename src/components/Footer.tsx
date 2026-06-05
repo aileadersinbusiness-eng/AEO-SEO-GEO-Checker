@@ -22,19 +22,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Links */}
-          <div className="flex items-center gap-6 text-xs text-slate-500">
-            {["Privacy", "Terms", "Contact"].map((link) => (
-              <a
-                key={link}
-                href="#"
-                className="hover:text-slate-300 transition-colors"
-              >
-                {link}
-              </a>
-            ))}
-          </div>
-
           {/* Powered by */}
           <div id="powered-by" className="flex items-center gap-1.5 text-xs text-slate-400">
             <span>Powered by</span>
